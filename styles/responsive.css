@@ -1,0 +1,246 @@
+@media (min-width: 1300px) {
+    .list-col{
+        height:320px;
+    }
+    .col-img-wr {
+        height:100%;
+    }
+    .list-col:hover{
+        transform: scale(1.1);
+        position: relative;
+        z-index: 2;
+        margin-right: 30px;
+        opacity: 0.9;
+    }
+    .movie-name{
+        font-size:13px;
+    }
+    .relase-date{
+        font-size: 10px;
+    }
+    .rated{
+        font-size: 10px;
+    }
+    .modal-ct {
+        width: 700px;
+        height:750px;
+    }
+    .hero-movie-des {
+        width: 382px;
+        font-size: 14px;
+        color: #ccc8c8;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    .tv-sr-overview {
+        font-size:20px;
+        width: 50vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-content {
+        justify-content: space-between;
+    }
+    .hero-wr {
+        height: 545px;
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-movie-name {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+    .hero-movie-des {
+        width: 244px;
+        font-size: 10px;
+        color: #f0eeee;
+        font-weight: 300;
+        line-height: 15px;
+        height: 60px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    .hero-btn {
+        margin-bottom: 2px;
+    }
+    .modal-close {
+        left: 89%;
+    }
+    .modal-ct {
+        height: 563px;
+    }
+    .modal-head {
+        position: relative;
+        width: 100%;
+        height: 38%;
+        background-size: cover;
+    }
+    .play-btn {
+        top: 69%;
+    }
+    .modal-close::before {
+        left: 28%;
+    }
+    .modal-close::after {
+        left: 28%;
+    }
+    .menu-mobile {
+        display:block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background: #191a1f;
+        padding: 30px;
+        z-index: 6;
+        width: 70%;
+        transform: translateX(-101%);
+        transition: all 0.3s linear;
+
+    }
+    .menu-mobile-img {
+        width: 90px;
+        margin-bottom: 30px;
+    }
+    .menu-mobile-img img{
+        width: 100%;
+    }
+    p.menu-label {
+        font-size: 26px;
+        text-transform: uppercase;
+        color: #ccc;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .search-box {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ccc;
+        border-radius: 21px;
+        overflow: hidden;
+        padding: 5px 0 5px 10px;
+    }
+    input.menu-form-search {
+        background: transparent;
+        border: none;
+        outline: none;
+        color:#d3ae86;
+    }
+    .menu-list {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    a.menu-item {
+        font-size: 20px;
+        margin-bottom: 12px;
+        color:rgb(156 163 175 / 1);
+    }
+    .search-btn {
+        border: none;
+        background: #191a1f;
+        color: #fff;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .nav-list,.nav-search {
+        display: none;
+    }
+    .menu-overlay {
+    display: none;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #0000009c;
+    }
+    .menu-mobile.open{
+        transform: translateX(0px);
+        transition: all 0.3s linear;
+    }
+    .menu-overlay.open{
+        display: block;
+    }
+    .hero-wr::before {
+        height: 85px;
+      
+    }
+    .hero-ct {
+        margin-top: 40px;
+    }
+    
+    .nav-open-menu {
+        display: block;
+        font-size: 25px;
+        position: relative;
+        transform: translateY(-5px);
+    }
+    .menu-item.active {
+        position: relative;
+        color: #00b7ff;
+        /* border-right: 3.5px solid #00b7ff; */
+    }
+    .menu-item.active::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        height:80%;
+        background-color: #00b7ff;
+        width: 3.5px;
+        top: 10%;
+        
+
+    }
+    .profile {
+        width: 50px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .profile:last-child {
+        margin-right: 0px;
+    }
+    .nav-user {
+        margin-left: auto;
+        margin-right: 10px;
+        position: relative;
+        transform: translateY(-4px);
+    }
+    .list-col.season-col {
+        height: 110px;
+    }
+    .episode-img {
+        height: 80%;
+    }
+    .episode-name {
+  
+        font-size: 14px;
+    }
+    .video {
+        height: 220px;
+    }
+    .tv-sr-thumbnail-desktop{
+        display:none;
+    }
+    .mv-d-mobile{
+        display: block;
+    }
+    
+}
+@media(min-width: 769px) and (max-width: 1200px) {
+    .list-col.season-col {
+        height: 150px;
+    }
+    .nav-list-item{
+        font-size: 17px;
+    }
+    .nav-search {
+        width: 240px;
+    }
+    
+}
